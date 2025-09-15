@@ -17,13 +17,11 @@ This project implements a **fraud detection system** for financial transactions 
 
 ## Data
 
-* Training dataset: `big_training_data.csv`
-* New data for testing: `new_data.csv`
+* Training dataset: fraud_data_split.zip 1-8
+* New data for testing: new_transactions.csv
 * Data columns:
-
-```
 step, type, amount, nameOrig, oldbalanceOrg, newbalanceOrig, nameDest, oldbalanceDest, newbalanceDest, isFraud, isFlaggedFraud
-```
+
  **Results**
 
 * Outputs accuracy and recall on new data
@@ -36,4 +34,4 @@ step, type, amount, nameOrig, oldbalanceOrg, newbalanceOrig, nameDest, oldbalanc
 ## Notes
 
 * Large dataset files are split into multiple ZIPs for GitHub storage.
-* Requires Python libraries: `pandas`, `xgboost`, `scikit-learn`.
+* Requires Python libraries: pandas, xgboost, scikit-learn.
